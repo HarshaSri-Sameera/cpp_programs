@@ -1,2 +1,2 @@
 # cpp_programs
-## these are the programs done duuring my cpp training.
+## these are the programs done during my cpp training.

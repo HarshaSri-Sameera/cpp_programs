@@ -7,11 +7,9 @@ int main()
 	while(exp)
 	{
 		if(exp&1)
-		{
 			res=res*base;
-			exp=exp>>1;
-			base*=base;
-		}
+		exp=exp>>1;
+		base*=base;
 	}
 	cout<<res;
 	return 0;

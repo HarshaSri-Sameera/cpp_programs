@@ -1,3 +1,4 @@
 ## This repository is in sync with VScode
-#cpp_programs
-### these are the programs done during my cpp training.
+
+### cpp_programs
+#### ```These are the programs done during my cpp training.```

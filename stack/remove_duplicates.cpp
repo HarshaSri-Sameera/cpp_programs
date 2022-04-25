@@ -9,7 +9,7 @@ vector<int> stack_fun(int arr[])
     stack<int> st;
     st.push(arr[0]);
     
-    for(int i=1;i<n;i++)
+    for(int i=1;i<=n;i++)
     {
         if(arr[i]!=st.top())
         {

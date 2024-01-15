@@ -13,5 +13,8 @@ int main() {
         y = carry << 1;
     }
 
-    cout<<x;
+    cout<<"This is value of x: "<<x;
 }
+
+
+// this is addition cpp code

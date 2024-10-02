@@ -50,3 +50,48 @@ int main() {
 //   * * * 
 //    * * 
 //     * 
+
+
+
+
+// other way
+#include<iostream>
+
+using namespace std;
+
+int main() {
+    int rows;
+    cout<<"Enter number of rows: ";
+    cin>>rows;
+    
+    for(int i=0; i<rows/2+1; i++)
+    {
+        // spaces
+        for(int j=rows/2; j>i; j--) 
+        {
+            cout<<" ";
+        }
+        // stars
+        for(int j=0; j<i+1; j++) 
+        {
+            cout<<"*";
+            cout<<" ";
+        }
+        cout<<"\n";
+    }
+    
+    for(int i=0; i<rows/2; i++)
+    {
+        // spaces
+        for(int j=0; j<=i; j++)
+        {
+            cout<<" ";
+        }
+        for(int j=rows/2; j>i; j--)
+        {
+            cout<<"*";
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+}
